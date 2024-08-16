@@ -1,6 +1,6 @@
 ﻿namespace Entities
 {
-    public class Task
+    public class Assigment
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -10,7 +10,7 @@
 
         public List<Reminder> Reminders { get; set; }
 
-        public Task()
+        public Assigment()
         {
             IsCompleted = false;
             Reminders = new List<Reminder>();
